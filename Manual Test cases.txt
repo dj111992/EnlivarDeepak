@@ -1,0 +1,69 @@
+1. Check error should come up on adding existing saved asset
+Expected: Error should come up
+Actual: Error dialog comes up saying Asset already exists
+Output: Test case Pass
+
+2. Check lower case letters asset name is not allowed to be saved
+Expected:lower case letters asset name should not be allowed to be saved
+Actual: lower case letters asset name is not allowed to be saved
+Output: Test case Pass
+
+3. Check special characters asset name should not be allowed to save
+Expected: Special characters asset name should not be allowed to be saved
+Actual: Special characters asset name is not allowed to be saved
+Output: Test case Pass
+
+4. Check more than 10 characters asset name is not allowed to be saved
+Expected: More than 10 characters asset name should not be allowed to be saved
+Actual: More than 10 characters asset name is not allowed to be saved
+Output: Test case Pass
+
+5. Check all numbers asset name is not allowed to be saved
+Expected: All numbers asset name should not be allowed to be saved
+Actual: All numbers asset name is not allowed to be saved
+Output: Test case Pass
+
+6. Check 4 upper case alphabets and 10 numbers asset name combination prints "Correct format" on the screen.
+Expected: 4 upper case alphabets and 10 numbers asset name should be allowed to be saved
+Actual: 4 upper case alphabets and 10 numbers asset name is allowed to be saved and prints "Correct format" on the screen.
+Output: Test case Pass
+
+7. Check on saving the asset with correct format and removing a character from text box prints "Incorrect format" on the screen
+Expected: 4 upper case alphabets and 10 numbers asset name should be allowed to be saved
+Actual: 4 upper case alphabets and 10 numbers asset name is allowed to be saved and prints "Correct format" on the screen.
+Output: Test case Pass
+
+8. Go to existing assets screen by clicking on "Existing assets" button and check screen opens
+Expected: Existing assets screen should open by clicking on "Existing assets" button
+Actual: Existing assets screen opens up by clicking on "Existing assets" button
+Output: Test case Pass
+
+9. Searching an existing asset should display the asset details
+Expected: Existing asset details should come up on searching the initialy saved asset
+Actual: Screen shows the searched asset as in screenshot
+Output: Test case Pass
+
+10. On sorting by asset name, the assets on the screen should be sorted
+Expected: the assets on the screen should be sorted on clicking on the sort button
+Actual: Screen is showing the assets in sorted order on clicking on name header
+Output: Test case Pass
+
+11. On filtering the assets on the existing assets screen, the assets on the screen should be filtered in accordance with the filter
+Expected: On filtering the assets on the existing assets screen, the assets on the screen should be filtered in accordance with the filter
+Actual: on entering some characters common to the asset name, the assets on the screen are filtered
+Output: Test case Pass
+
+12. Searching a non existing asset should display no records found
+Expected: No records found should be displayed
+Actual: Screen shows no records found on searching non existent asset
+Output: Test case Pass
+
+13. On booking more than 10 assets, check only 10 assets should be displayed on screen and Next button becomes enabled
+Expected: Next button should become enabled
+Actual: Next button gets enabled
+Output: Test case pass
+
+14. On booking more than 10 assets, check only 10 assets should be displayed on screen and Next button becomes disabled on filtering the number of asset to 20 on screen
+Expected: Next button should become disabled on filtering number of assets to 20
+Actual: Next button gets disabled on filtering number of assets to 20
+Output: Test case pass

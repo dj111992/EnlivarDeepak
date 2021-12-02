@@ -1,0 +1,25 @@
+Blackbox Testing strategies used:
+1. Functional Testing: 
+Smoke Testing
+Sanity Testing
+Integration Testing
+System Testing
+Regression Testing
+User Acceptance Testing
+2. Boundary Value Analysis
+The name itself defines that in this technique, we focus on the values at boundaries as it is found that many applications have a high amount of issues on the boundaries.
+Here in the demo application we try to test this by providing more than 10 characters and less than 10 characters in the text field for saving assets.
+3. Error Guessing
+In this technique, the tester can use his/her experience about the application behavior and functionalities to guess the error-prone areas. Many defects can be found using error guessing where most of the developers usually make mistakes.
+
+
+White box testing strategies: White Box Testing is software testing technique in which internal structure, design and coding of software are tested to verify flow of input-output and to improve design, usability and security. In white box testing, code is visible to testers so it is also called Clear box testing, Open box testing, Transparent box testing, Code-based testing and Glass box testing
+
+Since by looking at code, we can find the issues and vulnerabilities. We can test below:
+
+Internal security holes
+Broken or poorly structured paths in the coding processes
+The flow of specific inputs through the code
+Expected output
+The functionality of conditional loops
+Testing of each statement, object, and function on an individual basis

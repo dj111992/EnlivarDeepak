@@ -1,0 +1,15 @@
+Defect summary:
+
+1. (When pythpn script was not run using flask )On saving the asset with the same name as saved before, it prints "Correct format" and not gives the error
+
+Steps to reporduce:
+
+a. Add an asset with name "ABCD1234567890" and save it
+b. Refresh the screen and try to save the asset with same name "ABCD1234567890" and check
+
+2. (When pythpn script was not run using flask ) Click on Existing asset screen and check for saved assets:
+
+Steps to reporduce:
+
+a. Click on Existing assets button and check
+
